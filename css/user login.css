@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-image: url("user-login-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-backdrop-filter: brightness(50%);
+     backdrop-filter: brightness(50%);
+     height: 100vh;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+      background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+      -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+      height: 100vh;
+    }
+  }
+.logo{
+    padding-top: 10px;
+    max-width: 400px;
+    
+    -webkit-filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.735));
+      filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.669));
+  
+
+}
+
+.main_cont{
+  background-color: blue;
+  height: 400px;
+}
+.main_cont{
+  display: flex;
+  top: 70px;
+  left: 30%;
+  height: 430px;
+  max-width: 450px;
+  /* background-color: rgba(151, 127, 127, 0.395); */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 10px 10px 10px black;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+
+  /* border:6px dashed rgb(255, 255, 255); */
+}
+
+label{
+  font-family: "Libre Baskerville", serif;
+  align-self: flex-start;
+  position: relative;
+  left: 20%;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+input{
+  backdrop-filter: b;
+  margin-bottom: 20px;
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgb(33, 33, 33);
+  border: none;
+  background-color: rgba(191, 255, 0, 0.393)
+}
+h3{
+  font-size: 38px;
+  color: blanchedalmond;
+  font-weight: 600;
+  font-family: "Lora", serif;
+}
+
+.forget_new a{
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-family: "Bree Serif", serif;
+  color: #ffffffe6;
+  display: inline;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+}
+
+.forget_new a:hover{
+  color: black;
+}
+
+button{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  letter-spacing: 4px;
+  font-size: 20px;
+  height: 35px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(54, 0, 247, 0.712);
+}
+
+button:hover{
+  background-color: #ff9b18;
+}

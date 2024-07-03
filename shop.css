@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Product Card */
+
+
+hr{
+    width: 50px;
+    height: 3px;
+    background-color: #dfff0f;
+    border-radius: 4px;
+}
+.similar_items{
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.product{
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.product img{
+    margin-bottom: 8px;
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    transition: 0.3s all;
+}
+.product:hover img{
+    opacity: 0.7;
+}
+
+.product h2{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-overflow: unset;
+}
+.product button{
+    height: 40px;
+    width: 120px;
+    background-color: #ff9b18;
+    border: none;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.product:hover button{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+.p_titile a:hover{
+    text-decoration: none;
+}
+
+/* Product Card */
+
+/* footer section */
+
+/* footer */
+footer {
+    background-color: #000000d0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffffc7;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #333;
+}
+
+/* footer section */

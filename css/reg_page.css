@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Poetsen+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Poetsen+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url(background-User-Registration.jpg);
+    background-size: cover;
+   
+}
+.main_div h3{
+    font-family: "Sedan SC", serif;
+    letter-spacing: 3px;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.main_div{
+    background: rgba(157, 155, 155, 0.344);
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.422)
+
+}
+.main_div hr{
+    width: 100px;
+    margin: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 180px;
+}
+.main_div label{
+    margin-bottom: 4px;
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+
+}
+/* .roup{
+    padding-left: 35px;
+    padding-right: 35px;
+} */
+.main_div input{
+    margin-bottom: 8px;
+    border: none;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+.main_div  input:focus{
+    margin-bottom: 4px;
+    background-color: rgba(63, 66, 67, 0.608);
+    color: white;
+    border: 2px solid rgba(60, 0, 255, 0.66);
+    overflow: hidden;
+}
+.main_div button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Lora", serif;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+}
+
+.main_div button{
+    background-color: #0E46A3;
+}
+.main_div button:hover{
+    background-color: #1E0342;
+}
+
+input.checkbox-lg{
+    margin-left: 20px;
+    margin-top: 4px;
+    height: 25px;
+    width: 25px;
+}
+.roup span{
+    margin-left: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* show password style */
+
+.wrap-check-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+  }
+  
+  .wrap-check-1 input[type=checkbox] {
+    display: none;
+  }
+  .wrap-check-1 input[type=checkbox]:checked + label.checkbox .checkbox__inner .green__ball {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    transition-delay: 150ms;
+  }
+  .wrap-check-1 input[type=checkbox]:checked ~ .checkbox__text {
+    opacity: 1;
+  }
+  .wrap-check-1 input[type=checkbox]:checked ~ .checkbox__text .checkbox__text--options span.off {
+    transform: translateY(150%);
+    opacity: 0;
+  }
+  .wrap-check-1 input[type=checkbox]:checked ~ .checkbox__text .checkbox__text--options span.on {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  
+  .wrap-check-1 .checkbox {
+    --size: 30px;
+    position: relative;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(243, 243, 243);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.12), 2px 2px 6px rgba(0, 0, 0, 0.05), 2px 2px 10px rgba(0, 0, 0, 0.025), inset -2px -2px 3px rgba(0, 0, 0, 0.05), inset -2px -2px 8px rgba(0, 0, 0, 0.02), inset 1px 3px 3px rgba(255, 255, 255, 0.45), inset 3px 8px 25px rgba(255, 255, 255, 0.35), inset 3px 2px 3px rgba(255, 255, 255, 0.35), inset 3px 2px 5px rgba(255, 255, 255, 0.2), inset 2px 3px 8px rgba(255, 255, 255, 0.085), inset 3px 2px 18px rgba(255, 255, 255, 0.05), inset 2px 3px 25px rgba(255, 255, 255, 0.025), inset 8px 8px 18px rgba(255, 255, 255, 0.1), inset 8px 8px 25px rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+  }
+  .wrap-check-1 .checkbox .checkbox__inner {
+    position: relative;
+    width: calc(var(--size) / 1.75);
+    height: calc(var(--size) / 1.75);
+    border-radius: 50%;
+    background: rgb(243, 243, 243);
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.12), inset 2px 2px 5px rgba(0, 0, 0, 0.08), inset 3px 3px 12px rgba(0, 0, 0, 0.05), inset 4px 5px 16px rgba(0, 0, 0, 0.035), inset 0px -1px 2px rgba(255, 255, 255, 0.45), inset -1px -1px 3px rgba(255, 255, 255, 0.45), inset -1px -1px 2px rgba(255, 255, 255, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.12), 2px 2px 2px rgba(255, 255, 255, 0.12), 2px 2px 3px rgba(255, 255, 255, 0.1), 2px 2px 5px rgba(255, 255, 255, 0.08), 6px 6px 15px rgba(0, 0, 0, 0.014), 8px 8px 18px rgba(0, 0, 0, 0.08), 12px 12px 28px rgba(0, 0, 0, 0.04);
+  }
+  .wrap-check-1 .checkbox .checkbox__inner .green__ball {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(185, 255, 129);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.12), inset -4px -5px 12px rgba(0, 0, 0, 0.12), inset -5px -6px 12px rgba(0, 0, 0, 0.08), inset 0px -6px 18px rgba(0, 0, 0, 0.06), 2px 1px 8px rgba(152, 255, 112, 0.32), 3px 2px 12px rgba(152, 255, 112, 0.15), 4px 4px 18px rgba(152, 255, 112, 0.08);
+    transition: transform 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-delay: 120ms;
+  }
+  .wrap-check-1 .checkbox .checkbox__inner .green__ball::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 35%;
+    height: 15%;
+    filter: blur(4px);
+  }
+  
+  .wrap-check-1 .checkbox__text {
+    margin-left: .2rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    user-select: none;
+    pointer-events: none;
+    opacity: 0.8;
+    transition: opacity 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-delay: 150ms;
+  }
+  .wrap-check-1 .checkbox__text--options {
+    position: relative;
+    margin: 0 0.5rem;
+  }
+  .wrap-check-1 .checkbox__text--options span {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transition: transform 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-delay: 150ms;
+  }
+  .wrap-check-1 .checkbox__text--options span.off {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  .wrap-check-1 .checkbox__text--options span.on {
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+/* show password style end*/
+
+/* footer */
+footer {
+    background-color: #000000d0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffffc7;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #333;
+}
